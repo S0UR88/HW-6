@@ -1,0 +1,39 @@
+ul, ol {
+    list-style:none;
+
+}
+
+nav {
+    background-image:linear-gradient(to right, #fcb045, #fd1d1d,#4286f4,#FFFFFF,#f7797d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+    text-align:center;
+    background-size:4000px ;
+}
+
+nav ul li {
+    display: inline-block;
+    margin:45px ;
+
+}
+
+nav ul li a {
+    text-decoration:none;
+    font-family:'Pacifico';
+    color:black;
+    padding:30px;
+    display:block;
+    font-size:25px;
+
+}
+
+nav ul li a:hover {
+    background-color:rgba(255, 255, 255, 0.329) ;
+    transition:0.3s;
+
+}
+
+nav:hover {
+    background-position:right;
+    transition:10s;
+
+}
